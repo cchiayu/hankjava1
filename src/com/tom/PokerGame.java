@@ -7,8 +7,9 @@ public class PokerGame {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int flowers[] = {0X2663,0X2666,0X2665,0X2660};
-		System.out.println(flowers);
+		char flower[] = {0x2663,0x2666,0x2665,0x2660};
+		
+		System.out.println(flower);
 		int []nums = new int [5];
 		nums [0]= 98;
 		nums [4]= 78;
