@@ -6,10 +6,15 @@ import java.util.Scanner;
 public class PokerGame {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		char flower[] = {0x2663,0x2666,0x2665,0x2660};
-		System.out.println(flower);
+		int[] n = new int [10];
+		Card[] c = new Card[10];
+		System.out.println(n[0]);
+		c[0] = new Card(7);
+		System.out.println(c[0].get());
+		
+		
 		Poker poker = new Poker();
+		poker.shuffle();
 		poker.print();
 		
 		
